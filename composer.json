@@ -1,0 +1,26 @@
+{
+    "name": "tom.p/kahlan-nullable-example",
+    "description": "Kahlan test with nullable return types on interfaces",
+    "license": ["MIT"],
+    "authors": [
+        {
+            "name": "Tom Pradat",
+            "email": "tom.p@domraider.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4":  {
+            "App\\": "/src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4":  {
+            "App\\": "src",
+            "Spec\\": "spec"
+        }
+    },
+    "require-dev": {
+        "kahlan/kahlan": "^4.6"
+    }
+}
